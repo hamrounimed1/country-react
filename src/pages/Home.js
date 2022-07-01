@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
+import Countries from '../Components/Countries'
 
 export default function Home () {
   return (
     <div>
-        
-        <h1>Home page</h1>
+        <Countries/>
+         
         </div>
   )
 }
